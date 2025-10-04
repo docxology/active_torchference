@@ -1,0 +1,175 @@
+================================================================================
+EXAMPLE VALIDATION REPORT
+================================================================================
+Generated: 2025-10-03 17:41:01
+Total execution time: 101.4s
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total examples: 5
+Successful: 5
+Failed: 0
+Success rate: 100.0%
+
+DETAILED RESULTS
+--------------------------------------------------------------------------------
+
+unified_output_example
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS
+  Execution time: 29.94s
+  Output directory: output/unified_demo
+  Total files: 14
+
+  Subdirectories:
+    ✓ config          (1 files)
+        • config.json
+    ✓ logs            (1 files)
+        • metrics.json
+    ✓ checkpoints     (1 files)
+        • final_checkpoint.pkl
+    ✓ visualizations  (5 files)
+        • actions.png
+        • beliefs.png
+        • free_energy.png
+        • summary.png
+        • trajectory.png
+    ✓ animations      (3 files)
+        • beliefs_animation.gif
+        • comprehensive_animation.gif
+        • trajectory_animation.gif
+    ✓ data            (3 files)
+        • episode_0000.json
+        • episode_0001.json
+        • episode_0002.json
+    ✓ metadata        (0 files)
+
+  Key files:
+    ✓ config.json - Valid
+    ✓ metrics.json - Valid
+        Timesteps: 150
+        VFE values: 150
+        EFE values: 150
+
+simple_navigation
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS
+  Execution time: 60.26s
+  Output directory: output/simple_navigation
+  Total files: 16
+
+  Subdirectories:
+    ✓ config          (1 files)
+        • config.json
+    ✓ logs            (1 files)
+        • metrics.json
+    ✓ checkpoints     (1 files)
+        • final_checkpoint.pkl
+    ✓ visualizations  (5 files)
+        • actions.png
+        • beliefs.png
+        • free_energy.png
+        • summary.png
+        • trajectory.png
+    ✓ animations      (3 files)
+        • beliefs_animation.gif
+        • comprehensive_animation.gif
+        • trajectory_animation.gif
+    ✓ data            (5 files)
+        • episode_0000.json
+        • episode_0001.json
+        • episode_0002.json
+        • episode_0003.json
+        • episode_0004.json
+    ✓ metadata        (0 files)
+
+  Key files:
+    ✓ config.json - Valid
+    ✓ metrics.json - Valid
+        Timesteps: 500
+        VFE values: 500
+        EFE values: 500
+
+gridworld_exploration
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS
+  Execution time: 1.89s
+  Output directory: output/gridworld_exploration
+  Total files: 10
+
+  Subdirectories:
+    ✓ config          (1 files)
+        • config.json
+    ✓ logs            (1 files)
+        • metrics.json
+    ✓ checkpoints     (1 files)
+        • final_checkpoint.pkl
+    ✓ visualizations  (4 files)
+        • beliefs.png
+        • free_energy.png
+        • summary.png
+        • trajectory.png
+    ✓ animations      (0 files)
+    ✓ data            (3 files)
+        • episode_0000.json
+        • episode_0001.json
+        • episode_0002.json
+    ✓ metadata        (0 files)
+
+  Key files:
+    ✓ config.json - Valid
+    ✓ metrics.json - Valid
+        Timesteps: 39
+        VFE values: 39
+        EFE values: 39
+
+custom_environment
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS
+  Execution time: 6.99s
+  Output directory: output/oscillator_tracking
+  Total files: 11
+
+  Subdirectories:
+    ✓ config          (1 files)
+        • config.json
+    ✓ logs            (1 files)
+        • metrics.json
+    ✓ checkpoints     (1 files)
+        • final_checkpoint.pkl
+    ✓ visualizations  (5 files)
+        • beliefs.png
+        • free_energy.png
+        • summary.png
+        • tracking_error.png
+        • trajectory.png
+    ✓ animations      (0 files)
+    ✓ data            (3 files)
+        • episode_0000.json
+        • episode_0001.json
+        • episode_0002.json
+    ✓ metadata        (0 files)
+
+  Key files:
+    ✓ config.json - Valid
+    ✓ metrics.json - Valid
+        Timesteps: 600
+        VFE values: 600
+        EFE values: 600
+
+epistemic_pragmatic_balance
+  ----------------------------------------------------------------------------
+  Status: ✓ SUCCESS
+  Execution time: 2.30s
+  Output directory: output/epistemic_pragmatic_comparison
+  Comparison files: 1
+    • comparison_summary.png
+  Sub-experiments: 3
+    • balance_e2.0_p0.1: 4 files
+    • balance_e1.0_p1.0: 4 files
+    • balance_e0.1_p2.0: 4 files
+
+================================================================================
+VALIDATION COMPLETE
+================================================================================
+✅ ALL EXAMPLES PASSED

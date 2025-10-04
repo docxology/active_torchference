@@ -1,0 +1,70 @@
+================================================================================
+EXAMPLE VALIDATION REPORT
+================================================================================
+Generated: 2025-10-03 09:22:38
+Total execution time: 3.3s
+
+SUMMARY
+--------------------------------------------------------------------------------
+Total examples: 5
+Successful: 0
+Failed: 5
+Success rate: 0.0%
+
+DETAILED RESULTS
+--------------------------------------------------------------------------------
+
+unified_output_example
+  ----------------------------------------------------------------------------
+  Status: ✗ FAILED
+  Execution time: 0.93s
+
+  Error output (last 200 chars):
+    nce/examples/unified_output_example.py", line 9, in <module>
+        from active_torchference import Config, ActiveInferenceAgent, OutputManager
+    ModuleNotFoundError: No module named 'active_torchference'
+
+simple_navigation
+  ----------------------------------------------------------------------------
+  Status: ✗ FAILED
+  Execution time: 0.54s
+
+  Error output (last 200 chars):
+    le "/Users/4d/Documents/GitHub/active_torchference/examples/simple_navigation.py", line 8, in <module>
+        from active_torchference import (
+    ModuleNotFoundError: No module named 'active_torchference'
+
+gridworld_exploration
+  ----------------------------------------------------------------------------
+  Status: ✗ FAILED
+  Execution time: 0.54s
+
+  Error output (last 200 chars):
+    /Users/4d/Documents/GitHub/active_torchference/examples/gridworld_exploration.py", line 8, in <module>
+        from active_torchference import (
+    ModuleNotFoundError: No module named 'active_torchference'
+
+custom_environment
+  ----------------------------------------------------------------------------
+  Status: ✗ FAILED
+  Execution time: 0.53s
+
+  Error output (last 200 chars):
+    e "/Users/4d/Documents/GitHub/active_torchference/examples/custom_environment.py", line 8, in <module>
+        from active_torchference import (
+    ModuleNotFoundError: No module named 'active_torchference'
+
+epistemic_pragmatic_balance
+  ----------------------------------------------------------------------------
+  Status: ✗ FAILED
+  Execution time: 0.75s
+
+  Error output (last 200 chars):
+    4d/Documents/GitHub/active_torchference/examples/epistemic_pragmatic_balance.py", line 11, in <module>
+        from active_torchference import (
+    ModuleNotFoundError: No module named 'active_torchference'
+
+================================================================================
+VALIDATION COMPLETE
+================================================================================
+⚠️  5 EXAMPLE(S) FAILED

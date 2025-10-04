@@ -1,0 +1,32 @@
+{
+  "timestamp": "2025-10-03T08:53:46.833284",
+  "total_examples": 5,
+  "successful": 0,
+  "results": {
+    "unified_output_example": {
+      "success": false,
+      "execution_time": 1.035621166229248,
+      "output": "Traceback (most recent call last):\n  File \"/Users/4d/Documents/GitHub/active_torchference/examples/unified_output_example.py\", line 9, in <module>\n    from active_torchference import Config, ActiveInferenceAgent, OutputManager\nModuleNotFoundError: No module named 'active_torchference'\n"
+    },
+    "simple_navigation": {
+      "success": false,
+      "execution_time": 0.6386699676513672,
+      "output": "Traceback (most recent call last):\n  File \"/Users/4d/Documents/GitHub/active_torchference/examples/simple_navigation.py\", line 8, in <module>\n    from active_torchference import (\nModuleNotFoundError: No module named 'active_torchference'\n"
+    },
+    "gridworld_exploration": {
+      "success": false,
+      "execution_time": 0.6531431674957275,
+      "output": "Traceback (most recent call last):\n  File \"/Users/4d/Documents/GitHub/active_torchference/examples/gridworld_exploration.py\", line 8, in <module>\n    from active_torchference import (\nModuleNotFoundError: No module named 'active_torchference'\n"
+    },
+    "custom_environment": {
+      "success": false,
+      "execution_time": 0.6464779376983643,
+      "output": "Traceback (most recent call last):\n  File \"/Users/4d/Documents/GitHub/active_torchference/examples/custom_environment.py\", line 8, in <module>\n    from active_torchference import (\nModuleNotFoundError: No module named 'active_torchference'\n"
+    },
+    "epistemic_pragmatic_balance": {
+      "success": false,
+      "execution_time": 0.8944540023803711,
+      "output": "Traceback (most recent call last):\n  File \"/Users/4d/Documents/GitHub/active_torchference/examples/epistemic_pragmatic_balance.py\", line 11, in <module>\n    from active_torchference import (\nModuleNotFoundError: No module named 'active_torchference'\n"
+    }
+  }
+}

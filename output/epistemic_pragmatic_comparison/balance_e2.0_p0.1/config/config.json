@@ -1,0 +1,20 @@
+{
+  "hidden_dim": 8,
+  "obs_dim": 2,
+  "action_dim": 2,
+  "learning_rate_beliefs": 0.1,
+  "learning_rate_policy": 0.05,
+  "num_policy_iterations": 10,
+  "num_rollouts": 5,
+  "horizon": 3,
+  "temperature": 1.0,
+  "device": "cpu",
+  "dtype": "torch.float32",
+  "precision_obs": 1.0,
+  "precision_state": 1.0,
+  "precision_prior": 1.0,
+  "epistemic_weight": 2.0,
+  "pragmatic_weight": 0.1,
+  "seed": 42,
+  "extra": {}
+}

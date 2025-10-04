@@ -1,0 +1,541 @@
+{
+  "timestamp": "2025-10-03T12:12:15.205208",
+  "total_examples": 5,
+  "successful": 5,
+  "results": {
+    "unified_output_example": {
+      "success": true,
+      "execution_time": 27.614699840545654,
+      "output": "\n======================================================================\nActive Inference with Unified Output Directory Structure\n======================================================================\n\n\n======================================================================\nExperiment Output Structure: unified_demo\n======================================================================\nRoot: output/unified_demo\n  \u251c\u2500\u2500 config/           # Configuration files\n  \u251c\u2500\u2500 logs/             # Metric logs and summaries\n  \u251c\u2500\u2500 checkpoints/      # Agent state checkpoints\n  \u251c\u2500\u2500 visualizations/   # Static plots\n  \u251c\u2500\u2500 animations/       # GIF/video files\n  \u251c\u2500\u2500 data/             # Raw episode data\n  \u2514\u2500\u2500 metadata/         # Experiment metadata\n======================================================================\n\n\u2713 Output directories created:\n  \u2022 Config:          output/unified_demo/config\n  \u2022 Logs:            output/unified_demo/logs\n  \u2022 Checkpoints:     output/unified_demo/checkpoints\n  \u2022 Visualizations:  output/unified_demo/visualizations\n  \u2022 Animations:      output/unified_demo/animations\n  \u2022 Data:            output/unified_demo/data\n  \u2022 Metadata:        output/unified_demo/metadata\n\nRunning experiment...\n\n============================================================\nExperiment Summary: unified_demo\n============================================================\nTotal Steps: 150\nEpisodes: 3\n\nVariational Free Energy:\n  Mean: 3.1157\n  Std:  4.0642\n  Final: 15.9784\n\nExpected Free Energy:\n  Mean: 11.3543\n  Std:  0.0732\n  Final: 11.2412\n\nDistance to Goal:\n  Mean: 2.2632\n  Final: 3.9270\n============================================================\n\n\n\u2713 Generating visualizations...\n  \u2192 Saved to: output/unified_demo/visualizations\n\n\u2713 Generating animations...\nAnimation saved to output/unified_demo/animations/trajectory_animation.gif\nAnimation saved to output/unified_demo/animations/beliefs_animation.gif\nAnimation saved to output/unified_demo/animations/comprehensive_animation.gif\n  \u2192 Saved to: output/unified_demo/animations\n\n======================================================================\nOutput Verification\n======================================================================\n\nConfig (1 files):\n  \u2022 config.json\n\nLogs (1 files):\n  \u2022 metrics.json\n\nCheckpoints (1 files):\n  \u2022 final_checkpoint.pkl\n\nVisualizations (5 files):\n  \u2022 actions.png\n  \u2022 beliefs.png\n  \u2022 free_energy.png\n  \u2022 summary.png\n  \u2022 trajectory.png\n\nAnimations (3 files):\n  \u2022 beliefs_animation.gif\n  \u2022 comprehensive_animation.gif\n  \u2022 trajectory_animation.gif\n\nData (3 files):\n  \u2022 episode_0000.json\n  \u2022 episode_0001.json\n  \u2022 episode_0002.json\n\n======================================================================\n\u2713 All outputs organized in: ./output/unified_demo/\n======================================================================\n\nExperiment Summary:\n  experiment_name: unified_demo\n  output_root: output\n  experiment_dir: output/unified_demo\n\n======================================================================\nAccessing Specific Output Files\n======================================================================\nConfig file:    output/unified_demo/config/config.json\nMetrics file:   output/unified_demo/logs/metrics.json\nCheckpoint:     output/unified_demo/checkpoints/final_checkpoint.pkl\nVisualization:  output/unified_demo/visualizations/summary.png\nAnimation:      output/unified_demo/animations/trajectory_animation.gif\n\n\u2713 Experiment complete!\n\u2713 All outputs in: output/unified_demo\n\n\nEpisodes:   0%|          | 0/3 [00:00<?, ?it/s]\nEpisodes:   0%|          | 0/3 [00:00<?, ?it/s, steps=50, vfe=3.847, efe=11.355]\nEpisodes:  33%|\u2588\u2588\u2588\u258e      | 1/3 [00:00<00:00,  4.58it/s, steps=50, vfe=3.847, efe=11.355]\nEpisodes:  33%|\u2588\u2588\u2588\u258e      | 1/3 [00:00<00:00,  4.58it/s, steps=50, vfe=1.908, efe=11.358]\nEpisodes:  67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 2/3 [00:00<00:00,  4.73it/s, steps=50, vfe=1.908, efe=11.358]\nEpisodes:  67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 2/3 [00:00<00:00,  4.73it/s, steps=50, vfe=3.591, efe=11.350]\nEpisodes: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 3/3 [00:00<00:00,  4.79it/s, steps=50, vfe=3.591, efe=11.350]\nEpisodes: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 3/3 [00:00<00:00,  4.76it/s, steps=50, vfe=3.591, efe=11.350]\n",
+      "validation": {
+        "exists": true,
+        "experiment_dir": "output/unified_demo",
+        "subdirectories": {
+          "config": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "config.json"
+            ]
+          },
+          "logs": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "metrics.json"
+            ]
+          },
+          "checkpoints": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "final_checkpoint.pkl"
+            ]
+          },
+          "visualizations": {
+            "exists": true,
+            "file_count": 5,
+            "files": [
+              "beliefs.png",
+              "trajectory.png",
+              "actions.png",
+              "free_energy.png",
+              "summary.png"
+            ]
+          },
+          "animations": {
+            "exists": true,
+            "file_count": 3,
+            "files": [
+              "beliefs_animation.gif",
+              "comprehensive_animation.gif",
+              "trajectory_animation.gif"
+            ]
+          },
+          "data": {
+            "exists": true,
+            "file_count": 3,
+            "files": [
+              "episode_0002.json",
+              "episode_0000.json",
+              "episode_0001.json"
+            ]
+          },
+          "metadata": {
+            "exists": true,
+            "file_count": 0,
+            "files": []
+          }
+        },
+        "files": {
+          "config": {
+            "exists": true,
+            "valid": true,
+            "keys": [
+              "hidden_dim",
+              "obs_dim",
+              "action_dim",
+              "learning_rate_beliefs",
+              "learning_rate_policy",
+              "num_policy_iterations",
+              "num_rollouts",
+              "horizon",
+              "temperature",
+              "device",
+              "dtype",
+              "precision_obs",
+              "precision_state",
+              "precision_prior",
+              "epistemic_weight",
+              "pragmatic_weight",
+              "seed",
+              "extra"
+            ]
+          },
+          "metrics": {
+            "exists": true,
+            "valid": true,
+            "timesteps": 150,
+            "vfe_values": 150,
+            "efe_values": 150,
+            "keys": [
+              "timesteps",
+              "vfe",
+              "efe",
+              "distance_to_goal",
+              "custom"
+            ]
+          }
+        },
+        "total_files": 14
+      }
+    },
+    "simple_navigation": {
+      "success": true,
+      "execution_time": 54.87126398086548,
+      "output": "Running Active Inference Navigation Experiment...\n\n============================================================\nExperiment Summary: simple_navigation\n============================================================\nTotal Steps: 500\nEpisodes: 5\n\nVariational Free Energy:\n  Mean: 41.5883\n  Std:  51.7600\n  Final: 177.7646\n\nExpected Free Energy:\n  Mean: 11.2757\n  Std:  0.0944\n  Final: 11.1754\n\nDistance to Goal:\n  Mean: 6.4205\n  Final: 17.4502\n============================================================\n\n\nGenerating visualizations...\n\nGenerating animations...\nAnimation saved to output/simple_navigation/animations/trajectory_animation.gif\nAnimation saved to output/simple_navigation/animations/beliefs_animation.gif\nAnimation saved to output/simple_navigation/animations/comprehensive_animation.gif\n\n\u2713 Experiment complete! All outputs in: output/simple_navigation\n\nEpisodes:   0%|          | 0/5 [00:00<?, ?it/s]\nEpisodes:   0%|          | 0/5 [00:00<?, ?it/s, steps=100, vfe=46.102, efe=11.276]\nEpisodes:  20%|\u2588\u2588        | 1/5 [00:00<00:01,  2.43it/s, steps=100, vfe=46.102, efe=11.276]\nEpisodes:  20%|\u2588\u2588        | 1/5 [00:00<00:01,  2.43it/s, steps=100, vfe=38.731, efe=11.274]\nEpisodes:  40%|\u2588\u2588\u2588\u2588      | 2/5 [00:00<00:01,  2.49it/s, steps=100, vfe=38.731, efe=11.274]\nEpisodes:  40%|\u2588\u2588\u2588\u2588      | 2/5 [00:01<00:01,  2.49it/s, steps=100, vfe=50.063, efe=11.271]\nEpisodes:  60%|\u2588\u2588\u2588\u2588\u2588\u2588    | 3/5 [00:01<00:00,  2.47it/s, steps=100, vfe=50.063, efe=11.271]\nEpisodes:  60%|\u2588\u2588\u2588\u2588\u2588\u2588    | 3/5 [00:01<00:00,  2.47it/s, steps=100, vfe=31.853, efe=11.285]\nEpisodes:  80%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  | 4/5 [00:01<00:00,  2.50it/s, steps=100, vfe=31.853, efe=11.285]\nEpisodes:  80%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588  | 4/5 [00:02<00:00,  2.50it/s, steps=100, vfe=41.193, efe=11.272]\nEpisodes: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 5/5 [00:02<00:00,  2.49it/s, steps=100, vfe=41.193, efe=11.272]\nEpisodes: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 5/5 [00:02<00:00,  2.48it/s, steps=100, vfe=41.193, efe=11.272]\n",
+      "validation": {
+        "exists": true,
+        "experiment_dir": "output/simple_navigation",
+        "subdirectories": {
+          "config": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "config.json"
+            ]
+          },
+          "logs": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "metrics.json"
+            ]
+          },
+          "checkpoints": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "final_checkpoint.pkl"
+            ]
+          },
+          "visualizations": {
+            "exists": true,
+            "file_count": 5,
+            "files": [
+              "beliefs.png",
+              "trajectory.png",
+              "actions.png",
+              "free_energy.png",
+              "summary.png"
+            ]
+          },
+          "animations": {
+            "exists": true,
+            "file_count": 3,
+            "files": [
+              "beliefs_animation.gif",
+              "comprehensive_animation.gif",
+              "trajectory_animation.gif"
+            ]
+          },
+          "data": {
+            "exists": true,
+            "file_count": 5,
+            "files": [
+              "episode_0002.json",
+              "episode_0003.json",
+              "episode_0004.json",
+              "episode_0000.json",
+              "episode_0001.json"
+            ]
+          },
+          "metadata": {
+            "exists": true,
+            "file_count": 0,
+            "files": []
+          }
+        },
+        "files": {
+          "config": {
+            "exists": true,
+            "valid": true,
+            "keys": [
+              "hidden_dim",
+              "obs_dim",
+              "action_dim",
+              "learning_rate_beliefs",
+              "learning_rate_policy",
+              "num_policy_iterations",
+              "num_rollouts",
+              "horizon",
+              "temperature",
+              "device",
+              "dtype",
+              "precision_obs",
+              "precision_state",
+              "precision_prior",
+              "epistemic_weight",
+              "pragmatic_weight",
+              "seed",
+              "extra"
+            ]
+          },
+          "metrics": {
+            "exists": true,
+            "valid": true,
+            "timesteps": 500,
+            "vfe_values": 500,
+            "efe_values": 500,
+            "keys": [
+              "timesteps",
+              "vfe",
+              "efe",
+              "distance_to_goal",
+              "custom"
+            ]
+          }
+        },
+        "total_files": 16
+      }
+    },
+    "gridworld_exploration": {
+      "success": true,
+      "execution_time": 1.6914081573486328,
+      "output": "Running Active Inference Grid World Experiment...\n\n============================================================\nExperiment Summary: gridworld_exploration\n============================================================\nTotal Steps: 39\nEpisodes: 3\n\nVariational Free Energy:\n  Mean: 0.3721\n  Std:  0.1178\n  Final: 0.4541\n\nExpected Free Energy:\n  Mean: 2.3042\n  Std:  0.0205\n  Final: 2.2659\n\nDistance to Goal:\n  Mean: 2.5385\n  Final: 0.0000\n============================================================\n\n\nGenerating visualizations...\n\nExploration Statistics:\n  Unique positions visited: 13\n  Total positions in grid: 25\n  Coverage: 52.0%\n\n\u2713 Experiment complete! All outputs in: output/gridworld_exploration\n\nEpisodes:   0%|          | 0/3 [00:00<?, ?it/s]\nEpisodes:   0%|          | 0/3 [00:00<?, ?it/s, steps=9, vfe=0.425, efe=2.315]\nEpisodes:   0%|          | 0/3 [00:00<?, ?it/s, steps=4, vfe=0.512, efe=2.315]\nEpisodes:  67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 2/3 [00:00<00:00, 17.92it/s, steps=4, vfe=0.512, efe=2.315]\nEpisodes:  67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 2/3 [00:00<00:00, 17.92it/s, steps=26, vfe=0.332, efe=2.299]\nEpisodes: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 3/3 [00:00<00:00, 10.08it/s, steps=26, vfe=0.332, efe=2.299]\n",
+      "validation": {
+        "exists": true,
+        "experiment_dir": "output/gridworld_exploration",
+        "subdirectories": {
+          "config": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "config.json"
+            ]
+          },
+          "logs": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "metrics.json"
+            ]
+          },
+          "checkpoints": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "final_checkpoint.pkl"
+            ]
+          },
+          "visualizations": {
+            "exists": true,
+            "file_count": 4,
+            "files": [
+              "beliefs.png",
+              "trajectory.png",
+              "free_energy.png",
+              "summary.png"
+            ]
+          },
+          "animations": {
+            "exists": true,
+            "file_count": 0,
+            "files": []
+          },
+          "data": {
+            "exists": true,
+            "file_count": 3,
+            "files": [
+              "episode_0002.json",
+              "episode_0000.json",
+              "episode_0001.json"
+            ]
+          },
+          "metadata": {
+            "exists": true,
+            "file_count": 0,
+            "files": []
+          }
+        },
+        "files": {
+          "config": {
+            "exists": true,
+            "valid": true,
+            "keys": [
+              "hidden_dim",
+              "obs_dim",
+              "action_dim",
+              "learning_rate_beliefs",
+              "learning_rate_policy",
+              "num_policy_iterations",
+              "num_rollouts",
+              "horizon",
+              "temperature",
+              "device",
+              "dtype",
+              "precision_obs",
+              "precision_state",
+              "precision_prior",
+              "epistemic_weight",
+              "pragmatic_weight",
+              "seed",
+              "extra"
+            ]
+          },
+          "metrics": {
+            "exists": true,
+            "valid": true,
+            "timesteps": 39,
+            "vfe_values": 39,
+            "efe_values": 39,
+            "keys": [
+              "timesteps",
+              "vfe",
+              "efe",
+              "distance_to_goal",
+              "custom"
+            ]
+          }
+        },
+        "total_files": 10
+      }
+    },
+    "custom_environment": {
+      "success": true,
+      "execution_time": 7.14288330078125,
+      "output": "Running Active Inference Oscillator Tracking Experiment...\n\n============================================================\nExperiment Summary: oscillator_tracking\n============================================================\nTotal Steps: 600\nEpisodes: 3\n\nVariational Free Energy:\n  Mean: 2258.3643\n  Std:  2667.2461\n  Final: 9391.1836\n\nExpected Free Energy:\n  Mean: 10.5920\n  Std:  0.0395\n  Final: 10.6183\n\nDistance to Goal:\n  Mean: 54.2135\n  Final: 138.8468\n============================================================\n\n\nGenerating visualizations...\n\n\u2713 Experiment complete! All outputs in: output/oscillator_tracking\n\nEpisodes:   0%|          | 0/3 [00:00<?, ?it/s]\nEpisodes:   0%|          | 0/3 [00:01<?, ?it/s, steps=200, vfe=2216.397, efe=10.590]\nEpisodes:  33%|\u2588\u2588\u2588\u258e      | 1/3 [00:01<00:03,  1.89s/it, steps=200, vfe=2216.397, efe=10.590]\nEpisodes:  33%|\u2588\u2588\u2588\u258e      | 1/3 [00:03<00:03,  1.89s/it, steps=200, vfe=2321.718, efe=10.594]\nEpisodes:  67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 2/3 [00:03<00:01,  1.89s/it, steps=200, vfe=2321.718, efe=10.594]\nEpisodes:  67%|\u2588\u2588\u2588\u2588\u2588\u2588\u258b   | 2/3 [00:05<00:01,  1.89s/it, steps=200, vfe=2236.977, efe=10.591]\nEpisodes: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 3/3 [00:05<00:00,  1.89s/it, steps=200, vfe=2236.977, efe=10.591]\nEpisodes: 100%|\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588\u2588| 3/3 [00:05<00:00,  1.89s/it, steps=200, vfe=2236.977, efe=10.591]\n",
+      "validation": {
+        "exists": true,
+        "experiment_dir": "output/oscillator_tracking",
+        "subdirectories": {
+          "config": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "config.json"
+            ]
+          },
+          "logs": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "metrics.json"
+            ]
+          },
+          "checkpoints": {
+            "exists": true,
+            "file_count": 1,
+            "files": [
+              "final_checkpoint.pkl"
+            ]
+          },
+          "visualizations": {
+            "exists": true,
+            "file_count": 5,
+            "files": [
+              "beliefs.png",
+              "trajectory.png",
+              "free_energy.png",
+              "tracking_error.png",
+              "summary.png"
+            ]
+          },
+          "animations": {
+            "exists": true,
+            "file_count": 0,
+            "files": []
+          },
+          "data": {
+            "exists": true,
+            "file_count": 3,
+            "files": [
+              "episode_0002.json",
+              "episode_0000.json",
+              "episode_0001.json"
+            ]
+          },
+          "metadata": {
+            "exists": true,
+            "file_count": 0,
+            "files": []
+          }
+        },
+        "files": {
+          "config": {
+            "exists": true,
+            "valid": true,
+            "keys": [
+              "hidden_dim",
+              "obs_dim",
+              "action_dim",
+              "learning_rate_beliefs",
+              "learning_rate_policy",
+              "num_policy_iterations",
+              "num_rollouts",
+              "horizon",
+              "temperature",
+              "device",
+              "dtype",
+              "precision_obs",
+              "precision_state",
+              "precision_prior",
+              "epistemic_weight",
+              "pragmatic_weight",
+              "seed",
+              "extra"
+            ]
+          },
+          "metrics": {
+            "exists": true,
+            "valid": true,
+            "timesteps": 600,
+            "vfe_values": 600,
+            "efe_values": 600,
+            "keys": [
+              "timesteps",
+              "vfe",
+              "efe",
+              "distance_to_goal",
+              "custom"
+            ]
+          }
+        },
+        "total_files": 11
+      }
+    },
+    "epistemic_pragmatic_balance": {
+      "success": true,
+      "execution_time": 2.2938802242279053,
+      "output": "Exploring Epistemic vs Pragmatic Balance in Active Inference\n\n======================================================================\n\nRunning: Pure Exploration\n  Epistemic Weight: 2.0\n  Pragmatic Weight: 0.1\n  Final Distance: 2.8355\n  Mean VFE: 2.2996\n  Outputs: output/epistemic_pragmatic_comparison/balance_e2.0_p0.1\n\nRunning: Balanced\n  Epistemic Weight: 1.0\n  Pragmatic Weight: 1.0\n  Final Distance: 18.5700\n  Mean VFE: 46.1019\n  Outputs: output/epistemic_pragmatic_comparison/balance_e1.0_p1.0\n\nRunning: Pure Exploitation\n  Epistemic Weight: 0.1\n  Pragmatic Weight: 2.0\n  Final Distance: 28.1537\n  Mean VFE: 106.1882\n  Outputs: output/epistemic_pragmatic_comparison/balance_e0.1_p2.0\n\n======================================================================\nGenerating comparative visualizations...\n\n\u2713 Comparative analysis saved to output/epistemic_pragmatic_comparison/comparison_summary.png\n\n======================================================================\nKey Insights:\n----------------------------------------------------------------------\n\u2022 Pure Exploration: Agent explores more but may take longer to reach goal\n\u2022 Balanced: Agent balances information gain with goal-directed behavior\n\u2022 Pure Exploitation: Agent focuses on goal but may miss useful information\n======================================================================\n\n\u2713 All experiment outputs in: output/epistemic_pragmatic_comparison\n======================================================================\n\n",
+      "comparative_validation": {
+        "exists": true,
+        "base_dir": "output/epistemic_pragmatic_comparison",
+        "experiments": {
+          "balance_e2.0_p0.1": {
+            "subdirectories": {
+              "config": {
+                "exists": true,
+                "file_count": 1
+              },
+              "logs": {
+                "exists": true,
+                "file_count": 1
+              },
+              "checkpoints": {
+                "exists": true,
+                "file_count": 1
+              },
+              "visualizations": {
+                "exists": true,
+                "file_count": 0
+              },
+              "animations": {
+                "exists": true,
+                "file_count": 0
+              },
+              "data": {
+                "exists": true,
+                "file_count": 1
+              },
+              "metadata": {
+                "exists": true,
+                "file_count": 0
+              }
+            },
+            "total_files": 4
+          },
+          "balance_e1.0_p1.0": {
+            "subdirectories": {
+              "config": {
+                "exists": true,
+                "file_count": 1
+              },
+              "logs": {
+                "exists": true,
+                "file_count": 1
+              },
+              "checkpoints": {
+                "exists": true,
+                "file_count": 1
+              },
+              "visualizations": {
+                "exists": true,
+                "file_count": 0
+              },
+              "animations": {
+                "exists": true,
+                "file_count": 0
+              },
+              "data": {
+                "exists": true,
+                "file_count": 1
+              },
+              "metadata": {
+                "exists": true,
+                "file_count": 0
+              }
+            },
+            "total_files": 4
+          },
+          "balance_e0.1_p2.0": {
+            "subdirectories": {
+              "config": {
+                "exists": true,
+                "file_count": 1
+              },
+              "logs": {
+                "exists": true,
+                "file_count": 1
+              },
+              "checkpoints": {
+                "exists": true,
+                "file_count": 1
+              },
+              "visualizations": {
+                "exists": true,
+                "file_count": 0
+              },
+              "animations": {
+                "exists": true,
+                "file_count": 0
+              },
+              "data": {
+                "exists": true,
+                "file_count": 1
+              },
+              "metadata": {
+                "exists": true,
+                "file_count": 0
+              }
+            },
+            "total_files": 4
+          }
+        },
+        "comparison_files": [
+          "comparison_summary.png"
+        ]
+      }
+    }
+  }
+}
