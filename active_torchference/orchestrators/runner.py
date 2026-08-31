@@ -1,7 +1,6 @@
 """Experiment runner for Active Inference."""
 
 from typing import Optional, Callable, Dict, Any
-import torch
 from tqdm import tqdm
 
 from active_torchference.config import Config

@@ -748,7 +748,7 @@ results = run_batch_experiments(
 ## Support
 
 For questions and issues:
-- GitHub Issues: [active_torchference/issues](https://github.com/yourusername/active_torchference/issues)
+- GitHub Issues: [active_torchference/issues](https://github.com/docxology/active_torchference/issues)
 - Documentation: `docs/`
 - Examples: `examples/`
 - Tests: `tests/`

@@ -44,8 +44,8 @@ dev = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/yourusername/active_torchference"
-Issues = "https://github.com/yourusername/active_torchference/issues"
+Homepage = "https://github.com/docxology/active_torchference"
+Issues = "https://github.com/docxology/active_torchference/issues"
 
 [tool.setuptools]
 packages = ["active_torchference", "active_torchference.orchestrators"]

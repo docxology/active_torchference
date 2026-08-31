@@ -2,7 +2,7 @@
 
 import torch
 from abc import ABC, abstractmethod
-from typing import Tuple, Optional, Dict, Any
+from typing import Tuple, Optional, Any
 from active_torchference.config import Config
 
 

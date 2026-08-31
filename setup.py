@@ -15,7 +15,7 @@ setup(
     description="PyTorch-based Active Inference framework with clear action-perception loops",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/active_torchference",
+    url="https://github.com/docxology/active_torchference",
     packages=find_packages(exclude=["tests", "examples"]),
     classifiers=[
         "Development Status :: 3 - Alpha",

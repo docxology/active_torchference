@@ -4,7 +4,6 @@ import torch
 import torch.nn as nn
 from typing import List, Tuple, Optional
 from active_torchference.config import Config
-from active_torchference.utils import softmax
 
 
 class TransitionModel(nn.Module):

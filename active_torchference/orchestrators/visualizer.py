@@ -1,6 +1,6 @@
 """Visualization tools for Active Inference experiments."""
 
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict
 import torch
 import numpy as np
 import matplotlib.pyplot as plt
@@ -670,7 +670,6 @@ class Visualizer:
         
         import base64
         from io import BytesIO
-        from pathlib import Path
         
         html_content = f"""<!DOCTYPE html>
 <html>

@@ -4,7 +4,7 @@
 
 ```bash
 # Clone repository
-git clone https://github.com/yourusername/active_torchference.git
+git clone https://github.com/docxology/active_torchference.git
 cd active_torchference
 
 # Install dependencies
@@ -53,7 +53,7 @@ visualizer.show()
 ### Example 1: Simple Navigation
 
 ```bash
-python3 examples/simple_navigation.py
+python3 -m examples.simple_navigation
 ```
 
 Demonstrates basic Active Inference navigation to a fixed goal.
@@ -66,7 +66,7 @@ Demonstrates basic Active Inference navigation to a fixed goal.
 ### Example 2: Grid World Exploration
 
 ```bash
-python3 examples/gridworld_exploration.py
+python3 -m examples.gridworld_exploration
 ```
 
 Shows epistemic drive (exploration) in discrete environment.
@@ -79,7 +79,7 @@ Shows epistemic drive (exploration) in discrete environment.
 ### Example 3: Custom Environment
 
 ```bash
-python3 examples/custom_environment.py
+python3 -m examples.custom_environment
 ```
 
 Tracking oscillating goal with custom dynamics.
@@ -92,7 +92,7 @@ Tracking oscillating goal with custom dynamics.
 ### Example 4: Epistemic-Pragmatic Balance
 
 ```bash
-python3 examples/epistemic_pragmatic_balance.py
+python3 -m examples.epistemic_pragmatic_balance
 ```
 
 Compares different exploration-exploitation trade-offs.
