@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "If you use this work, please cite it as below."
+type: software
+title: "active_torchference"
+authors:
+  - family-names: Friedman
+    given-names: Daniel Ari
+    orcid: "https://orcid.org/0000-0001-6232-9096"
+repository-code: "https://github.com/docxology/active_torchference"
+abstract: "PyTorch framework for Active Inference agents that act by minimizing variational and expected free energy — no reward functions, no reinforcement learning. Modular beliefs, policy, and environment modules with YAML configs, rollout/horizon planning, and orchestrators for logging, plotting, and animation."
+license: MIT
