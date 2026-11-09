@@ -3,3 +3,7 @@
 PyTorch implementation of the Active Inference action-perception loop: variational and
 expected free energy, belief updating, policy selection, and demo environments.
 Run `pytest` to verify.
+
+## License
+
+Released under the [MIT License](LICENSE).
