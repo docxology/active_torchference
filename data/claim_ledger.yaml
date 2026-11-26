@@ -1,0 +1,22 @@
+claims:
+  - claim_id: archived-navigation-steps
+    kind: number
+    value: 100
+    source: output/simple_navigation/data/episode_0000.json steps
+    artifact_path: output/simple_navigation/data/episode_0000.json
+    source_tier: claim_ledger
+    freshness: active
+  - claim_id: archived-navigation-mean-vfe
+    kind: number
+    value: 46.1019
+    source: output/simple_navigation/data/episode_0000.json avg_vfe rounded to four decimals
+    artifact_path: output/simple_navigation/data/episode_0000.json
+    source_tier: claim_ledger
+    freshness: active
+  - claim_id: archived-navigation-mean-efe
+    kind: number
+    value: 11.2762
+    source: output/simple_navigation/data/episode_0000.json avg_efe rounded to four decimals
+    artifact_path: output/simple_navigation/data/episode_0000.json
+    source_tier: claim_ledger
+    freshness: active

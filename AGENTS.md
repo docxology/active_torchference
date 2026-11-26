@@ -11,12 +11,12 @@ repo, nested inside the docxology workspace).
 - `tests/` — pytest suite (unit + integration, incl. free-energy validation).
 - `validation/` — explicit VFE/EFE validation scripts; artifacts in `validation/outputs/`.
 - `output/` — generated experiment artifacts (per-example subdirs).
-- `docs/manuscript/` — manuscript status for the publication line.
+- `docs/manuscript/` — software methods manuscript source.
 - Root: `pyproject.toml`, `requirements.txt`, `Makefile`, `pytest.ini`, `check_installation.py`.
 
 ## Commands (verify with pytest)
 - `pytest` from repo root (config in `pytest.ini`).
-- `python check_installation.py` — environment sanity check (unverified).
+- `python check_installation.py` — environment sanity check.
 
 ## Invariants
 - Output artifacts under `output/` and `validation/outputs/` are GENERATED — rerun the examples/validators rather than editing.

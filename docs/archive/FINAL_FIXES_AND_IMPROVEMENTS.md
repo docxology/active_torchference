@@ -25,7 +25,7 @@ self.history["beliefs"].append(self.beliefs.mean.detach().cpu())
 self.history["beliefs"].append(self.beliefs.mean.detach().cpu().clone())
 ```
 
-**Result**: 
+**Result**:
 - Beliefs now vary correctly over time (mean change: ~0.034 per step)
 - Belief ranges per dimension: 0.12-0.29 (healthy variation)
 - VFE minimization working as intended
@@ -65,7 +65,7 @@ if has_efe_per_policy:
 
 ### 3. **Image Popups** ✅ REMOVED
 
-**Solution**: 
+**Solution**:
 - Removed all `plt.show()` calls
 - All plots auto-save to disk
 - Added warning message when `.show()` is called
@@ -314,4 +314,3 @@ The system is now production-ready with:
 - No workflow interruptions
 
 **Ready for publication and deployment.**
-
