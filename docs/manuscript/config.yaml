@@ -1,0 +1,16 @@
+paper:
+  title: "Numerical Methods in Active Torchference"
+  subtitle: "Belief updates and policy diagnostics in synthetic environments"
+  version: "0.1.0"
+
+authors:
+  - name: "Active Torchference Contributors"
+
+metadata:
+  license: "MIT"
+
+render:
+  formats:
+    pdf: true
+    html: true
+    slides: false

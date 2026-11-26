@@ -58,3 +58,6 @@ checkpoints/
 *.gif
 *.mp4
 
+
+# Local virtual environments
+.venv/

@@ -1,0 +1,19 @@
+{
+  "schema_version": "active-torchference-validation-figures/1",
+  "figures": [
+    {
+      "label": "fig:vfe_validation",
+      "filename": "vfe_validation.png",
+      "caption": "Variational free-energy validation on the seeded CPU fixture.",
+      "generated_by": "validation/validate_vfe_computation.py",
+      "alt_text": "Four panels show VFE per timestep, within-step minimization, latent-state evolution, and the reduction at each step."
+    },
+    {
+      "label": "fig:efe_validation",
+      "filename": "efe_validation.png",
+      "caption": "Expected free-energy validation on the seeded CPU fixture.",
+      "generated_by": "validation/validate_efe_computation.py",
+      "alt_text": "Four panels show candidate EFE, horizon-by-candidate scores, optimization history, and the distribution of policy costs."
+    }
+  ]
+}
