@@ -2,15 +2,24 @@
 
 Install Git, uv, Pandoc 3.14 with pandoc-crossref 0.3.26b, and XeLaTeX with the
 [required TeX packages](https://github.com/docxology/template/blob/87704feae0a4490ef7dad9c931d268e8c30273c2/docs/usage/output-formats.md).
-Use the [CPU setup](QUICKSTART.md) in the clean project checkout, or provide a
-compatible Python interpreter with the project dependencies and CPU Torch.
+Use the [CPU setup](QUICKSTART.md) in the clean project checkout, or set
+`PROJECT_PYTHON` to the absolute path of an existing Python interpreter with
+the project dependencies and CPU Torch.
 
 From the project root:
 
 ```sh
 set -e
 project_root="$(pwd -P)"
-project_python="$project_root/.venv/bin/python"
+project_python="${PROJECT_PYTHON:-$project_root/.venv/bin/python}"
+case "$project_python" in
+  /*) ;;
+  *) printf '%s\n' 'PROJECT_PYTHON must be an absolute path.' >&2; exit 1 ;;
+esac
+if [ ! -f "$project_python" ] || [ ! -x "$project_python" ]; then
+  printf 'Python interpreter must be an executable file: %s\n' "$project_python" >&2
+  exit 1
+fi
 renderer="$(mktemp -d)/template"
 git clone https://github.com/docxology/template.git "$renderer"
 git -C "$renderer" checkout --detach 87704feae0a4490ef7dad9c931d268e8c30273c2
